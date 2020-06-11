@@ -7,7 +7,7 @@ class productcard extends StatelessWidget {
       padding: EdgeInsets.only(left: 70),
       child: Container(
         width: 300,
-        height: 450,
+        height: 300,
         child: Stack(
           fit: StackFit.expand,
           children: <Widget>[
@@ -16,10 +16,10 @@ class productcard extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.only(left: 5,right: 5,bottom:20),
                 child: Container(
-                  width: 300,
+                  width: 500,
                   height: double.infinity,
                   decoration: BoxDecoration(
-                    color: Colors.white30,
+                    color: Colors.black38,
                     borderRadius: BorderRadius.circular(8),
                     boxShadow: [
                       BoxShadow(
@@ -34,9 +34,9 @@ class productcard extends StatelessWidget {
             ),
             Positioned(
 
-              right: 20,
-              top: 60,
-              child: Image.asset("assets/deck.png",width: 440,height: 350,),
+              right: 50,
+              top: 50,
+              child: Image.asset("assets/deck.png",width: 350,height: 200,),
             ),
             Positioned(
 
@@ -44,10 +44,10 @@ class productcard extends StatelessWidget {
               top: 120,
               child: Column(
                 children: <Widget>[
-                  Text("Santa Cruz x TMNT",style: TextStyle(fontWeight: FontWeight.bold,),),
-                  Text("Pizza Dude Everslick",style: TextStyle(fontWeight: FontWeight.bold),),
-                  Text("8.25 x 31.8",style: TextStyle(fontWeight: FontWeight.bold),),
-                  Text("price:64.99",style: TextStyle(fontWeight: FontWeight.bold),),
+                  Text("Santa Cruz x TMNT",style: TextStyle( color:Colors.white,fontWeight: FontWeight.bold,),),
+                  Text("Pizza Dude Everslick",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold),),
+                  Text("8.25 x 31.8",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold),),
+                  Text("price:64.99",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold),),
                   Row(
                     children: <Widget>[
                       Icon(Icons.star),

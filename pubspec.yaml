@@ -50,6 +50,7 @@ flutter:
   assets:
     - assets/skateboard_login.jpg
     - assets/deck.png
+    - assets/das.jpg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
